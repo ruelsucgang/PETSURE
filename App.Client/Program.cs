@@ -31,7 +31,7 @@ namespace App.Client
             // fibonacci sequence
             Fibonacci();
 
-            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine(System.Environment.NewLine + System.Environment.NewLine + "Press any key to continue...");
             Console.ReadKey();
         }
 
