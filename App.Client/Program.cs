@@ -12,7 +12,7 @@ using App.Domain.Services;
 using System.Security.Cryptography;
 
 // author: Ruel B. Sucgang (.net software developer)
-namespace App.Client
+namespace App.Client 
 {
     public class Program
     {
