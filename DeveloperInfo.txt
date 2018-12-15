@@ -1,0 +1,33 @@
+
+Author:  
+ Ruel B. Sucgang
+ C#.Net / VB.Net Software Developer
+ 0936-9889403
+ 
+ Implements the SOLID principle
+ 
+ Design Pattern:
+  Repository Design Pattern
+ 
+
+Requirements:
+Problem A
+In a class library project, design and implement an interface (IModelService) to perform operations 
+with POCO objects of any type (i.e.,model objects with getter/setter properties containing the data 
+of the model object). Only classes should be allowed for the POCO object. These POCO objects will 
+contain properties that are:
+
+•	Basic C#/.NET types (string, int, etc.)
+
+•	POCOs of any type (i.e., a Person object could have a FavoriteColor property)
+
+•	Collections of POCOs of any type (i.e., a Person object could have a List<Address> property)
+
+The interface should have the following three methods:
+
+•	A method that accepts two POCO objects of any type(possibly the same type, possibly different types) 
+and returns a list of the differences.Each difference should be represented by a model object with the name 
+of the property (as a string) and the values of each property in each object (i.e., value 1 and value 2, 
+which could be null).
+
+
