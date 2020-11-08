@@ -54,9 +54,9 @@
       <Project>{c95badb3-a26c-4354-9ce7-cf92b70e6e0b}</Project>
       <Name>App.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\App.Petsure.Data\App.Petsure.Data.csproj">
+    <ProjectReference Include="..\App.Petsure.Data\App.Data.csproj">
       <Project>{703b76c2-9c45-487c-9119-f5f8ad25fcf7}</Project>
-      <Name>App.Petsure.Data</Name>
+      <Name>App.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
